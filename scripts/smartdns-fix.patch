@@ -1,0 +1,11 @@
+--- a/Makefile
++++ b/Makefile
+@@ -15,7 +15,7 @@ PKG_SOURCE_URL:=https://github.com/pymumu/smartdns/releases/download/Release28/
+ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+ PKG_HASH:=skip
+ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+-PKG_BUILD_DEPENDS:=wolfssl
++PKG_BUILD_DEPENDS:=openssl
+ 
+ include $(INCLUDE_DIR)/package.mk
+ 
