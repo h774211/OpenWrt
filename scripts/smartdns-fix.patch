@@ -7,5 +7,7 @@
 -PKG_BUILD_DEPENDS:=wolfssl
 +PKG_BUILD_DEPENDS:=openssl
  
+-include ../../lang/rust/rust-package.mk
++include ../../../feeds/packages/lang/rust/rust-package.mk
  include $(INCLUDE_DIR)/package.mk
  
